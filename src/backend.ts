@@ -26,6 +26,9 @@ const RequestState = z.object({
 
 // Allowed models to reject invalid requests (mirrors ALLOWED_MODEL_NAMES).
 const ALLOWED_MODEL_NAMES = [
+  "openai/gpt-oss-20b",
+  "openai/gpt-oss-120b",
+  "qwen/qwen3.8-27b",
   "llama3-70b-8192",
   "mixtral-8x7b-32768",
   "llama-3.3-70b-versatile",
